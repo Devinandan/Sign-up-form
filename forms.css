@@ -1,0 +1,110 @@
+.right {
+    flex: 2;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    
+    padding: 0px;
+}
+
+.form {
+    width: 100%;
+    height: 275px;
+    background-color: whitesmoke;
+    box-shadow: 2px, 4px, 10px, rgba(0, 0, 0, 1);
+    margin-bottom: 20px;
+    padding-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    
+}
+.intro {
+    padding-left: 50px;
+    margin-bottom: 65px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.firstLine {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    font-weight: bold;  
+}
+
+input {
+    border-color: #E5E7EB;
+}
+input:invalid {
+    border-color: red;
+}
+
+label {
+    display: block;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    
+    
+}
+
+.two {
+    margin-left: 200px;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    
+}
+
+.four {
+    margin-left: 200px;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.six {
+    margin-left: 200px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: 0px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.lastLine {
+    font-size: 16px;
+    padding-left: 50px;
+}
+
+.link {
+    color: #596D48;
+}
+
+.btn{
+    padding-left: 50px;
+}
