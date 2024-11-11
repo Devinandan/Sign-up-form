@@ -49,6 +49,10 @@ input:invalid {
     border-color: red;
 }
 
+input:focus {
+    background-color: lightblue;
+    border-color: blue;
+}
 label {
     display: block;
 }
@@ -82,6 +86,17 @@ label {
     
 }
 
+.five {
+    display: flex;
+    flex-direction: column;
+}
+
+#error {
+    color: #c00000;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .six {
     margin-left: 200px;
 }
@@ -95,6 +110,13 @@ button {
     border-radius: 10px;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
     margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.15);
 }
 .lastLine {
     font-size: 16px;
