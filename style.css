@@ -20,7 +20,7 @@ body, html {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url(/home/vboxuser/repos/Sign-up-form/brice-cooper-DQVriuwNSVA-unsplash.jpg);
+    background-image: url(brice-cooper-DQVriuwNSVA-unsplash.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
